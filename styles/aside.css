@@ -1,0 +1,25 @@
+.aside{
+    width: 400px;
+    height: 363px;
+    margin-left: 841px;
+    margin-top: 145px;
+
+}
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0
+}
+
+.follow__section{
+    margin-top: 75px;
+}
+
+.img__follow__section{
+    margin-right: 20px;
+}
+
+.follow__section__2{
+    margin-top: 61px;
+}

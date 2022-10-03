@@ -1,0 +1,94 @@
+.btn__logout{
+    color: var(--color-white-fixed);
+    border: none;
+    padding-right: 100px;
+}
+
+.btn__logout:hover{
+    cursor: pointer;
+}
+
+.btn__post{
+    width: 69px;
+    height: 38px;
+    position: relative;
+    bottom: 100px;
+    left: 645px;
+    justify-content: flex-end;
+    background-color: var(--color-blue-1);
+    color: var(--color-white-fixed);
+    border-color: transparent;
+}
+
+.btn__post:hover{
+    cursor: pointer;
+    background-color: var(--color-white-fixed);
+    color: var(--color-blue-1);
+    font-weight: bolder;
+    border-color: solid 2px var(--color-grey-2);
+    
+}
+
+.btn__open__post{
+    margin-top: 32px;
+    width: 92px;
+    height: 38px;
+    background-color: var(--color-grey-1);
+    color: var(--color-white-fixed);
+    border: transparent;
+    margin-bottom: 54px;
+}
+
+
+.btn__follow1{
+    background-color: transparent;
+    color: black;
+    width: 68px;
+    height: 28px;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 58px;
+   
+
+}
+
+.btn__follow2{
+    background-color: transparent;
+    color: black;
+    width: 68px;
+    height: 28px;
+    margin-left: 44px;
+    font-size: 14px;
+    margin-top: 2px;
+   
+
+}
+
+.btn__follow3{
+    background-color: transparent;
+    color: black;
+    width: 68px;
+    height: 28px;
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 2px;
+  
+
+}
+
+
+.btn__follow:hover{
+    cursor:pointer;
+   
+
+}
+
+.btn__Geral {
+   width: 89px;
+   height: 28px;
+   background-color: var(--color-blue-1);
+   color: white;
+   border-color: transparent;
+ 
+  
+}

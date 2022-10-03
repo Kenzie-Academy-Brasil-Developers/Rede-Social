@@ -1,0 +1,145 @@
+@media(max-width: 768px) {
+
+    .container {
+        max-width: 768px;
+    }
+
+    .navbar {
+        position: fixed;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn__logout {
+        margin-left: 480px;
+    }
+
+
+    .navbar__title {
+        margin-left: -60px;
+    }
+
+    .aside {
+        margin-left: 200px;
+        width: 580px;
+        margin-top: 200px;
+        position: absolute;
+        margin-top: 550px;
+    }
+
+    .user__post {
+        position: absolute;
+        margin-left: 15px;
+    }
+
+    .posts {
+        margin-top: 500px;
+    }
+
+    .theme__user__post {
+        width: 600px;
+    }
+
+    .paragraph {
+        width: 600px;
+    }
+
+}
+
+@media(max-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+
+    .navbar {
+        position: fixed;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn__logout {
+        margin-right: -50px;
+    }
+
+    .navbar__title {
+        margin-left: -60px;
+    }
+
+    .aside {
+        margin-left: 320px;
+        width: 580px;
+        margin-top: 200px;
+        position: absolute;
+        margin-top: 550px;
+    }
+
+    .user__post {
+        position: absolute;
+        margin-left: 140px;
+    }
+
+    .posts {
+        margin-top: 500px;
+    }
+
+    .theme__user__post {
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 700px;
+    }
+}
+
+@media(max-width: 1250px) {
+
+    .container {
+        max-width: 1024px;
+    }
+
+    .navbar {
+        position: fixed;
+        backface-visibility: hidden;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .btn__logout {
+        margin-right: -50px;
+    }
+
+    .navbar__title {
+        margin-left: -60px;
+    }
+
+    .aside {
+        margin-left: 320px;
+        width: 580px;
+        margin-top: 200px;
+        position: absolute;
+        margin-top: 550px;
+    }
+
+    .user__post {
+        position: absolute;
+        margin-left: 140px;
+    }
+
+    .posts {
+        margin-top: 500px;
+    }
+
+    .theme__user__post {
+        width: 100%;
+    }
+
+    .paragraph {
+        width: 700px;
+    }
+
+}

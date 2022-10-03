@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="stylesheet" href="./styles/navbar.css" />
+  <link rel="stylesheet" href="./styles/globalStyles.css" />
+  <link rel="stylesheet" href="./styles/buttons.css">
+  <link rel="stylesheet" href="./styles/user.css">
+  <link rel="stylesheet" href="./styles/display.css">
+  <link rel="stylesheet" href="./styles/modal.css">
+  <link rel="stylesheet" href="./styles/aside.css">
+  <link rel="stylesheet" href="./styles/response.css">
+  <script defer src="./script/users.js"></script>
+  <script defer src="./script/posts.js"></script>
+  <script defer src="./script/index.js"></script>
+  <script defer src="./script/moda.js"></script>
+  <script defer src="./script/btn.js"></script>
+
+
+</head>
+
+
+<body class="container">
+
+  <nav class="navbar flex fixed">
+    <h1 class="navbar__title c">TechPosters</h1>
+    <button class="btn__logout outline transparent__background">Sair</button>
+  </nav>
+
+
+
+  
+
+
+    <section class="aside justify__flexS sticky">
+      <h2>Sugestões para você seguir</h2>
+      <div class="flex follow__section__2">
+        <section>
+          <img class="img__user img__follow__section" src="../../assets/img/user3.svg">
+        </section>
+        <div>
+          <h2>Carlos Lima</h2>
+          <p>UX e UI Designer</p>
+        </div>
+        <section>
+          <button class="black__border btn__follow1 transparent__background border-radius cursor" id="btn__follow">Seguir</button>
+      </div>
+      <div class="flex follow__section">
+        <section>
+          <img class="img__user img__follow__section" src="../../assets/img/user6.svg">
+        </section>
+        <div>
+          <h2>Júlia Martins</h2>
+          <p>Back-end Engineer</p>
+        </div>
+        <section class="flex btn__dad">
+          <button class="black__border btn__follow2 transparent__background border-radius cursor" id="btn__follow">Seguir</button>
+        </section>
+      </div>
+      <div class="flex follow__section">
+        <section>
+          <img class="img__user img__follow__section" src="../../assets/img/user7.svg">
+        </section>
+        <div>
+          <h2>Filipe Gutierry</h2>
+          <p>Back-end Engineer</p>
+        </div>
+        <section>
+          <button class="black__border btn__follow3 transparent__background border-radius cursor" id="btn__follow">Seguir</button>
+        </section>
+      </div>
+    </section>
+
+
+
+
+    <main class="posts___container">
+
+
+    <section class="user__post flex absolute">
+      <section>
+        <img class="img__user" src="./assets/img/user1.svg">
+      </section>
+      <section class="flex column margin__left">
+        <h2>Samuel Leão</h2>
+        <p>Front-end Engineer</p>
+      </section>
+    </section>
+    <section class="input__border gap__input user__post margin__top column flex">
+      <input class="font outline theme__input padding__input border__input border-radius" type="text" placeholder="Tema">
+      <input class="font outline text__input padding__input border__input border-radius" type="text"
+        placeholder="Sobre o que está pensando?">
+      <button class="btn__post transparent__background border-radius outline">Postar</button>
+    </section>
+    <section>
+
+      <section class="posts absolute">
+        <h1 class="title__posts">POSTS</h1>
+        <section class="flex " id="local__posts">
+        </section>
+
+        <section class="section__posts" id="section__posts">
+        </section>
+  </main>
+</body>
+
+</html>
